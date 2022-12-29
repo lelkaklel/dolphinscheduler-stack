@@ -7,6 +7,6 @@ Deploy:
 
 on Mac M1:
 
-pull all images and run:
+pull all images (amd64 platform version) and run:
 
 ```docker stack deploy -c docker-stack.yml dolphinscheduler --resolve-image "never"```
